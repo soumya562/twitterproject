@@ -1,0 +1,11 @@
+{
+    "/api": {
+      "target": "https://api.twitter.com/oauth2/token",
+      "secure": true,
+      "pathRewrite": {
+        "^/api": "https://api.twitter.com/oauth2/token"
+      },
+      
+      "changeOrigin": true
+    }
+  }
